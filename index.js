@@ -14,5 +14,9 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
-  const lis = 
+  let lis = document.getElementById('nest').querySelectorAll('div')
+  let test
+  for (let i = 0; i<lis.length; i++){
+    test=
+  }
 }
