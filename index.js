@@ -18,6 +18,5 @@ function deepestChild(){
   let test
   for (let i = 0; i<lis.length; i++){
     test=lis[i].innerHTML
-  }console.log(test)
-  return test
+  }return test
 }
