@@ -17,6 +17,6 @@ function deepestChild(){
   let lis = document.getElementById('nest').querySelectorAll('div')
   let test
   for (let i = 0; i<lis.length; i++){
-    test=
-  }
+    test=lis[i].innerHTML
+  }return test
 }
